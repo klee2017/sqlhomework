@@ -28,5 +28,4 @@ count도 적용가능하다.<br/>
 SELECT Count(*) AS DistinctCountries
 FROM (SELECT DISTINCT Country FROM Customers);
 ```
-<br/>
 ![count_overlay](count_as.png)
