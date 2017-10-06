@@ -15,10 +15,10 @@ column은 `,`로 구별하며, 순서는 기재한 대로 나옴.
 ![select](select_all.png)
 
 #### SQL SELECT DISTINCT Statement
- - SELECT DISTINCT statement는 별개의(중복되지 않은) 값만 return한다.
-```SELECT Country FROM Customers;```
-![select_ex](select_ex.png)
-```SELECT DISTINCT Country FROM Customers;```
-![select_distinct](select_distinct.png)
-```SELECT COUNT(DISTINCT Country) FROM Customers;```
-![select_distinct_count](select_distinct_count.png)
+ - SELECT DISTINCT statement는 별개의(중복되지 않은) 값만 return한다.<br/>
+```SELECT Country FROM Customers;```<br/>
+![select_ex](select_ex.png)<br/>
+```SELECT DISTINCT Country FROM Customers;```<br/>
+![select_distinct](select_distinct.png)<br/>
+```SELECT COUNT(DISTINCT Country) FROM Customers;```<br/>
+![select_distinct_count](select_distinct_count.png)<br/>
