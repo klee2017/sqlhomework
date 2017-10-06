@@ -29,4 +29,4 @@ SELECT Count(*) AS DistinctCountries
 FROM (SELECT DISTINCT Country FROM Customers);
 ```
 <br/>
-![select_count_as_distinct_overlay](countas.png)<br/>
+![select_count_as_distinct_overlay](countas.png)
