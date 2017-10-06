@@ -10,10 +10,10 @@ condition에 필터링할 조건을 입력
 select * from customers
 where country = 'Mexico';
 ```
-![where](where.png)
+![where](./img/where.png)
 
 문자는 작은 따옴표 `' '` 안에 입력하고, 숫자는 작은 따옴표가 없어야 한다.<br/>
-![where_numeric](select_where_numeric.png)
+![where_numeric](./img/select_where_numeric.png)
 
 #### 사용할 수 있는 오퍼레이터.
 
@@ -30,4 +30,4 @@ where country = 'Mexico';
 	LIKE | Search for a pattern
 	IN | To specify multiple possible values for a column
 
-![where_numeric_not_equal](where_not_equal.png)
+![where_numeric_not_equal](./img/where_not_equal.png)
