@@ -24,6 +24,9 @@ count도 적용가능하다.<br/>
 ```SELECT COUNT(DISTINCT Country) FROM Customers;```<br/>
 ![select_distinct_count](select_distinct_count.png)<br/>
 중복적용도 가능하다.<br/>
-```SELECT Count(*) AS DistinctCountries
-FROM (SELECT DISTINCT Country FROM Customers);```<br/>
+```
+SELECT Count(*) AS DistinctCountries
+FROM (SELECT DISTINCT Country FROM Customers);
+```
+<br/>
 ![select_count_as_distinct_overlay](countas.png)<br/>
