@@ -21,7 +21,7 @@ column은 `,`로 구별하며, 순서는 기재한 대로 나옴.
 ```SELECT DISTINCT Country FROM Customers;```<br/>
 ![select_distinct](select_distinct.png)<br/>
 ```SELECT COUNT(DISTINCT Country) FROM Customers;```<br/>
- - count도 적용가능하다.
+ - count도 적용가능하다.<br/>
 ![select_distinct_count](select_distinct_count.png)<br/>
 ```SELECT Count(*) AS DistinctCountries
 FROM (SELECT DISTINCT Country FROM Customers);```<br/>
