@@ -23,6 +23,6 @@ or<br/>
 ex.<br/>
 ```SELECT TOP 3 * FROM Customers WHERE Country='Germany';```<br/>
 or<br/>
-```SELECT * FROM Customers WHERE Country='Germany' LIMIT 3;```
+```SELECT * FROM Customers WHERE Country='Germany' LIMIT 3;```<br/>
 or<br/>
 ```SELECT * FROM Customers WHERE Country='Germany' AND ROWNUM <= 3;```
