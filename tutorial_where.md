@@ -17,17 +17,17 @@ where country = 'Mexico';
 
 #### 사용할 수 있는 오퍼레이터.
 
-	Operator | Description
-	---------|--------------
-	= | Equal
-	<> | Not equal
-	!= | Not equal (some version)
-	> | Greater than
-	< | Less than
-	>= | Greater than or equal
-	<= | Less than or equal
-	between | Between an inclusive range
-	LIKE | Search for a pattern
-	IN | To specify multiple possible values for a column
+Operator | Description
+---------|--------------
+= | Equal
+<> | Not equal
+!= | Not equal (some version)
+ > | Greater than
+< | Less than
+ >= | Greater than or equal
+<= | Less than or equal
+between | Between an inclusive range
+LIKE | Search for a pattern
+IN | To specify multiple possible values for a column
 
 ![where_numeric_not_equal](./img/where_not_equal.png)
