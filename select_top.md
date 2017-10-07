@@ -3,15 +3,14 @@
 
 - 주의: 모든 데이터베이스 시스템이 SELECT TOP을 사용하는 것은 아니며, MySQL은 LIMIT를, Oracle은 ROWNUM을 이용.
 
-예시
+예시<br/>
 ![select_top](./img/select_top_ex.png)
 
 
 - 처음 세 개만 가져오기<br/>
-`select top 3 * from customers;`
+```select top 3 * from customers;```
 or
-```SELECT * FROM Customers
-LIMIT 3;```
+```SELECT * FROM Customers LIMIT 3;```
 or
 ```SELECT * FROM Customers
 WHERE ROWNUM <= 3;```
