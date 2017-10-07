@@ -16,18 +16,17 @@ where country = 'Mexico';
 ![where_numeric](./img/select_where_numeric.png)
 
 #### 사용할 수 있는 오퍼레이터.
-
-Operator | Description
+Description | Operator
 ---------|--------------
-= | Equal
-<> | Not equal
-!= | Not equal (some version)
- > | Greater than
-< | Less than
- >= | Greater than or equal
-<= | Less than or equal
-between | Between an inclusive range
-LIKE | Search for a pattern
-IN | To specify multiple possible values for a column
+Equal | =
+Not equal | <>
+Not equal (some version | !=
+Greater than | >
+Less than | <
+Greater than or equal | >=
+Less than or equal | <=
+Between an inclusive range | between
+Search for a pattern | LIKE
+To specify multiple possible values for a column | IN
 
 ![where_numeric_not_equal](./img/where_not_equal.png)
