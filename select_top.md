@@ -8,10 +8,10 @@
 
 
 - 처음 세 개만 가져오기<br/>
-```select top 3 * from customers;```
-or
-```SELECT * FROM Customers LIMIT 3;```
-or
+```select top 3 * from customers;```<br/>
+or<br/>
+```SELECT * FROM Customers LIMIT 3;```<br/>
+or<br/>
 ```SELECT * FROM Customers WHERE ROWNUM <= 3;```
 
 
@@ -20,9 +20,9 @@ or
 
 
 - 여러 가지 조건들도 적용 가능.
-ex.
-```SELECT TOP 3 * FROM Customers WHERE Country='Germany';```
-or
+ex.<br/>
+```SELECT TOP 3 * FROM Customers WHERE Country='Germany';```<br/>
+or<br/>
 ```SELECT * FROM Customers WHERE Country='Germany' LIMIT 3;```
-or
+or<br/>
 ```SELECT * FROM Customers WHERE Country='Germany' AND ROWNUM <= 3;```
