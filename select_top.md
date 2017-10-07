@@ -21,18 +21,8 @@ or
 
 - 여러 가지 조건들도 적용 가능.
 ex.
-```
-SELECT TOP 3 * FROM Customers
-WHERE Country='Germany';
-```
+```SELECT TOP 3 * FROM Customers WHERE Country='Germany';```
 or
-```
-SELECT * FROM Customers
-WHERE Country='Germany'
-LIMIT 3;
-```
+```SELECT * FROM Customers WHERE Country='Germany' LIMIT 3;```
 or
-```
-SELECT * FROM Customers
-WHERE Country='Germany' AND ROWNUM <= 3;
-```
+```SELECT * FROM Customers WHERE Country='Germany' AND ROWNUM <= 3;```
