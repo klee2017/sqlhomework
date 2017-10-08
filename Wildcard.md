@@ -12,7 +12,6 @@
 MS Access와 SQL Server에서는 다음과 같은 것도 사용:<br/>
 [charlist] - Defines sets and ranges of characters to match<br/>
 [^charlist] or [!charlist] - Defines sets and ranges of characters NOT to match
--> 어떻게 쓰는 건지 잘 모르겠다.
 
 
 예시<br/>
